@@ -1,13 +1,26 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  position: relative;
+  height: 100%;
+}
+
+.characterEditor .grayBackdrop {
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  height: 40%;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
 }
 
 .maxWidthWrapper {
+  max-width: 1024px;
 }
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -21,10 +34,4 @@
 .description {
   font-size: 1.25rem;
   margin: 0;
-}
-
-.characterWrapper {
-}
-
-.controlColumn {
 }
